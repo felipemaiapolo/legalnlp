@@ -29,18 +29,18 @@ If you use our library in your academic work, please cite us in the following wa
     2.  [ Word2Vec/Doc2Vec ](#3.2)
     3.  [ FastText ](#3.3)
     4.  [ BERTikal ](#3.4)
-4. [ Demonstrations/Tutorials](#4)
+4. [ Demonstrations / Tutorials](#4)
 5. [ References](#5)
 
 --------------
 
 <a name="0"></a>
-## 0\. Address for Language Models
+## 0\. Accessing the Language Models
 
 
 All our models can be found [here](https://drive.google.com/drive/folders/1tCccOXPLSEAEUQtcWXvED3YaNJi3p7la?usp=sharing).
 
-Some models can be download directly using our function `get_premodel`.
+Some models can be download directly using our function `get_premodel` (more detail in section [Other Functions](#2.2)).
 
 
 Please contact *felipemaiapolo@gmail.com* if you have some problem accessing the language models. 
