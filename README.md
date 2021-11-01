@@ -43,7 +43,7 @@ All our models can be found [here](https://drive.google.com/drive/folders/1tCccO
 Some models can be download directly using our function `get_premodel` (more detail in section [Other Functions](#2.2)).
 
 
-Please contact *felipemaiapolo@gmail.com* if you have some problem accessing the language models. 
+Please contact *felipemaiapolo@gmail.com* if you have any problem accessing the language models. 
 
 --------------
 
