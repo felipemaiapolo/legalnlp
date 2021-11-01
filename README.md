@@ -1,6 +1,6 @@
 # ***LegalNLP*** - Natural Language Processing Methods for the Brazilian Legal Language :balance_scale:
 
-### The library of Natural Language Processing for Brazilian legal language, *LegalNLP*, was born in a partnership between Brazilian researchers and the legal tech Tikal Tech based in São Paulo, Brazil. Besides containing pre-trained language models for the Brazilian legal language, ***LegalNLP*** provides functions that can facilitate the manipulation of legal texts in Portuguese and demonstration/tutorials to help people in their own work.
+### The library of Natural Language Processing for Brazilian legal language, *LegalNLP*, was born in a partnership between Brazilian researchers and the legal tech [Tikal Tech](https://www.tikal.tech) based in São Paulo, Brazil. Besides containing pre-trained language models for the Brazilian legal language, ***LegalNLP*** provides functions that can facilitate the manipulation of legal texts in Portuguese and demonstration/tutorials to help people in their own work.
 
 You can access our paper by clicking [**here**](https://arxiv.org/abs/2110.15709). 
 
