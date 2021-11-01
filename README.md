@@ -40,7 +40,7 @@ If you use our library in your academic work, please cite us in the following wa
 
 All our models can be found [here](https://drive.google.com/drive/folders/1tCccOXPLSEAEUQtcWXvED3YaNJi3p7la?usp=sharing).
 
-Some models can be download directly using our function `get_premodel` (more detail in section [Other Functions](#2.2)).
+Some models can be download directly using our function `get_premodel` (more details in section [Other Functions](#2.2)).
 
 
 Please contact *felipemaiapolo@gmail.com* if you have any problem accessing the language models. 
@@ -116,7 +116,7 @@ Function to download a pre-trained model in the same folder as the file that is 
     - **model = "wdoc"**: Download Word2Vec and Do2vec pre-trained models in a.zip file and unzip it. It has 2 two files, one with an size 100 Doc2Vec Distributed Memory/ Word2Vec Continuous Bag-of-Words (CBOW) embeddings model and other with an size 100 Doc2Vec Distributed Bag-of-Words (DBOW)/ Word2Vec Skip-Gram (SG)  embeddings model.
     - **model = "fasttext"**: Download a .zip file containing 100 sized FastText CBOW/SG models and unzip it.
     - **model = "phraser"**: Download Phraser pre-trained model in a .zip file and unzip it. It has 2 two files with phraser1 and phreaser2. We explain how to use them in Section [ Phraser ](#3.1). 
-    - **model = "w2vnilc"**: Download size 100 Word2Vec CBOW model trained by "Núcleo Interinstitucional de Linguística Computacional" embeddings model in a .zip file and unzip it. [Click here for more details](http://nilc.icmc.usp.br/nilc/index.php/repositorio-de-word-embeddings-do-nilc).
+    - **model = "w2vnilc"**: Download size 100 Word2Vec CBOW model trained by "Núcleo Interinstitucional de Linguística Computacional - USP" embeddings model in a .zip file and unzip it. [Click here for more details](http://nilc.icmc.usp.br/nilc/index.php/repositorio-de-word-embeddings-do-nilc).
     - **model = "neuralmindbase"**: Download a .zip file containing base BERT model (PyTorch), trained by NeuralMind and unzip it. For more informations about BERT models made by NeuralMind go to [their GitHub repo](https://github.com/neuralmind-ai/portuguese-bert).
     - **model = "neuralmindlarge"**: Download a .zip file containing large BERT model (PyTorch), trained by NeuralMind and unzip it. For more informations about BERT models made by NeuralMind go to [their GitHub repo](https://github.com/neuralmind-ai/portuguese-bert).
 
@@ -128,7 +128,7 @@ Function to download a pre-trained model in the same folder as the file that is 
 
 #### 2.2.1\. `extract_features_bert(path_model, path_tokenizer, data, gpu=True)`
 
-Function for extracting features with the BERT model (This function is not accessed through the package installation, but you can find it [here](https://github.com/legalnlp21/legalnlp/blob/main/demo/BERT/extract_features_bert.ipynb)).
+Function for extracting features with the BERT model (This function is not accessed through the package installation, but you can find it [here](https://github.com/felipemaiapolo/legalnlp/blob/main/demo/BERT/extract_features_bert.ipynb)).
 
 
 **Input:**  
@@ -437,12 +437,12 @@ bert_model = BertModel.from_pretrained('model_bertikal/')
 
 For a better understanding of the application of these models, below are the links to notebooks where we apply them to a legal dataset using various classification models such as Logistic Regression and CatBoost:
 
-- **BERT notebook** : 
-[https://github.com/legalnlp21/legalnlp/blob/main/demo/BERT/BERT_TUTORIAL.ipynb](https://github.com/legalnlp21/legalnlp/blob/main/demo/BERT/BERT_TUTORIAL.ipynb)
-- **Word2Vec notebook** :
-[https://github.com/legalnlp21/legalnlp/blob/main/demo/Word2Vec/Word2Vec_TUTORIAL.ipynb](https://github.com/legalnlp21/legalnlp/blob/main/demo/Word2Vec/Word2Vec_TUTORIAL.ipynb)
-- **Doc2Vec notebook** :
-[https://github.com/legalnlp21/legalnlp/tree/main/demo/Doc2Vec](https://github.com/legalnlp21/legalnlp/tree/main/demo/Doc2Vec)
+- **BERT notebook** : click
+[here](https://github.com/felipemaiapolo/legalnlp/blob/main/demo/BERT/BERT_TUTORIAL.ipynb)
+- **Word2Vec notebook** : click
+[here](https://github.com/felipemaiapolo/legalnlp/blob/main/demo/Word2Vec/Word2Vec_TUTORIAL.ipynb)
+- **Doc2Vec notebook** : click
+[here](https://github.com/felipemaiapolo/legalnlp/blob/main/demo/Doc2Vec/Doc2Vec_TUTORIAL.ipynb)
 
 
 
