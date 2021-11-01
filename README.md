@@ -2,11 +2,18 @@
 
 ### The library of Natural Language Processing for Brazilian legal language, *LegalNLP*, was born in a partnership between Brazilian researchers and the legal tech Tikal Tech based in São Paulo, Brazil. Besides containing pre-trained language models for the Brazilian legal language, ***LegalNLP*** provides functions that can facilitate the manipulation of legal texts in Portuguese and demonstration/tutorials to help people in their own work.
 
-You can access our paper by clicking **here**. 
+You can access our paper by clicking [**here**](https://arxiv.org/abs/2110.15709). 
 
 If you use our library in your academic work, please cite us in the following way
 
-  
+    @misc{polo2021legalnlp,
+      title={LegalNLP -- Natural Language Processing methods for the Brazilian Legal Language}, 
+      author={Felipe Maia Polo and Gabriel Caiaffa Floriano Mendonça and Kauê Capellato J. Parreira and Lucka Gianvechio and Peterson Cordeiro and Jonathan Batista Ferreira and Leticia Maria Paz de Lima and Antônio Carlos do Amaral Maia and Renato Vicente},
+      year={2021},
+      eprint={2110.15709},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+    }
 
 --------------
 
