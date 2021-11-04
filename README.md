@@ -58,7 +58,8 @@ $ pip install git+https://github.com/felipemaiapolo/legalnlp
 You can load all our functions running the following command
 
 ```python
-from legalnlp import *
+from legalnlp.clean_functions import *
+from legalnlp.get_premodel import *
 ```
 
 
