@@ -6,13 +6,11 @@ You can access our paper by clicking [**here**](https://arxiv.org/abs/2110.15709
 
 If you use our library in your academic work, please cite us in the following way
 
-    @misc{polo2021legalnlp,
-      title={LegalNLP -- Natural Language Processing methods for the Brazilian Legal Language}, 
-      author={Felipe Maia Polo and Gabriel Caiaffa Floriano Mendonça and Kauê Capellato J. Parreira and Lucka Gianvechio and Peterson Cordeiro and Jonathan Batista Ferreira and Leticia Maria Paz de Lima and Antônio Carlos do Amaral Maia and Renato Vicente},
-      year={2021},
-      eprint={2110.15709},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+    @article{polo2021legalnlp,
+      title={LegalNLP--Natural Language Processing methods for the Brazilian Legal Language},
+      author={Polo, Felipe Maia and Mendon{\c{c}}a, Gabriel Caiaffa Floriano and Parreira, Kau{\^e} Capellato J and Gianvechio, Lucka and Cordeiro, Peterson and Ferreira, Jonathan Batista and de Lima, Leticia Maria Paz and Maia, Ant{\^o}nio Carlos do Amaral and Vicente, Renato},
+      journal={arXiv preprint arXiv:2110.15709},
+      year={2021}
     }
 
 --------------
