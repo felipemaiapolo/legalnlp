@@ -436,12 +436,14 @@ bert_model = BertModel.from_pretrained('model_bertikal/')
 
 For a better understanding of the application of these models, below are the links to notebooks where we apply them to a legal dataset using various classification models such as Logistic Regression and CatBoost:
 
-- **BERT notebook** : click
-[here](https://github.com/felipemaiapolo/legalnlp/blob/main/demo/BERT/BERT_TUTORIAL.ipynb)
-- **Word2Vec notebook** : click
-[here](https://github.com/felipemaiapolo/legalnlp/blob/main/demo/Word2Vec/Word2Vec_TUTORIAL.ipynb)
-- **Doc2Vec notebook** : click
-[here](https://github.com/felipemaiapolo/legalnlp/blob/main/demo/Doc2Vec/Doc2Vec_TUTORIAL.ipynb)
+- **BERT notebook** : 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/legalnlp21/4b3a8f293950beb9634643775af19569/bert_tutorial.ipynb)
+ 
+- **Word2Vec notebook** : 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/legalnlp21/41c705c92bf93779518923f6d4019ab4/word2vec-tutorial.ipynb)
+
+- **Doc2Vec notebook** :
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/legalnlp21/e709e5843852799666ff3c08bba1d0b8/doc2vec-tutorial.ipynb)
 
 
 
