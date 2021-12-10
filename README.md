@@ -6,11 +6,15 @@ You can access our paper by clicking [**here**](https://arxiv.org/abs/2110.15709
 
 If you use our library in your academic work, please cite us in the following way
 
-    @article{polo2021legalnlp,
-      title={LegalNLP--Natural Language Processing methods for the Brazilian Legal Language},
-      author={Polo, Felipe Maia and Mendon{\c{c}}a, Gabriel Caiaffa Floriano and Parreira, Kau{\^e} Capellato J and Gianvechio, Lucka and Cordeiro, Peterson and Ferreira, Jonathan Batista and de Lima, Leticia Maria Paz and Maia, Ant{\^o}nio Carlos do Amaral and Vicente, Renato},
-      journal={arXiv preprint arXiv:2110.15709},
-      year={2021}
+    Polo, Felipe Maia, et al. "LegalNLP-Natural Language Processing methods for the Brazilian Legal Language." Anais do XVIII Encontro Nacional de Inteligência Artificial e Computacional. SBC, 2021.
+    
+    @inproceedings{polo2021legalnlp,
+      title={LegalNLP-Natural Language Processing methods for the Brazilian Legal Language},
+      author={Polo, Felipe Maia and Mendon{\c{c}}a, Gabriel Caiaffa Floriano and Parreira, Kau{\^e} Capellato J and Gianvechio, Lucka and Cordeiro, Peterson and Ferreira, Jonathan Batista and de Lima, Leticia Maria Paz and do Amaral Maia, Ant{\^o}nio Carlos and Vicente, Renato},
+      booktitle={Anais do XVIII Encontro Nacional de Intelig{\^e}ncia Artificial e Computacional},
+      pages={763--774},
+      year={2021},
+      organization={SBC}
     }
 
 --------------
