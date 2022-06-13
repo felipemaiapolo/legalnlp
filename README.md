@@ -54,7 +54,14 @@ Please contact *felipemaiapolo@gmail.com* if you have any problem accessing the 
 *LegalNLP* is promising given the scarcity of Natural Language Processing resources focused on the Brazilian legal language. It is worth mentioning that our library was made for Python, one of the most well-known programming languages for machine learning.
 
 
-You can install our package running the following command on terminal
+You can install our package running one of the following commands on the terminal
+
+``` :sh
+$ pip install legalnlp
+```
+
+or 
+
 ``` :sh
 $ pip install git+https://github.com/felipemaiapolo/legalnlp
 ```
