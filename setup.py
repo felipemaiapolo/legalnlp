@@ -6,13 +6,13 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="legalnlp",
-    version="1.0.2",
+    version="1.0.3",
     author="Felipe Maia Polo",
     author_email="felipemaiapolo@gmail.com",
     description="Pre-trained language models forthe  Brazilian  legal  language.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url='https://github.com/legalnlp21/legalnlp',
+    url='https://github.com/felipemaiapolo/legalnlp',
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
