@@ -196,8 +196,8 @@ Importing package and loading our two Phraser models.
 from gensim.models.phrases import Phraser 
 
 #Loading two Phraser models
-phraser1=Phraser.load('models_phraser/phraser1')
-phraser2=Phraser.load('models_phraser/phraser2')
+phraser1=Phraser.load('folder_name/phraser1')
+phraser2=Phraser.load('folder_name/phraser2')
 ```
 
 
@@ -262,7 +262,7 @@ Loading W2V (all the files for the specific model should be in the same folder)
 from gensim.models import KeyedVectors
 
 #Loading a W2V model
-w2v=KeyedVectors.load('models_w2v_d2v/w2v_d2v_dm_size_100_window_15_epochs_20')
+w2v=KeyedVectors.load('folder_name/w2v_d2v_dm_size_100_window_15_epochs_20')
 w2v=w2v.wv
 ```
 Viewing the first 10 entries of 'juiz' vector
@@ -318,7 +318,7 @@ Loading D2V (all the files for the specific model should be in the same folder)
 from gensim.models import Doc2Vec
 
 #Loading a D2V model
-d2v=Doc2Vec.load('models_w2v_d2v/w2v_d2v_dm_size_100_window_15_epochs_20')
+d2v=Doc2Vec.load('folder_name/w2v_d2v_dm_size_100_window_15_epochs_20')
 ```
 
 Inferring vector for a text
@@ -379,7 +379,7 @@ Loading FastText (all the files for the specific model should be in the same fol
 from gensim.models import FastText
 
 #Loading a FastText model
-fast=FastText.load('models_fasttext/fasttext_sg_size_100_window_15_epochs_20')
+fast=FastText.load('folder_name/fasttext_sg_size_100_window_15_epochs_20')
 fast=fast.wv
 ```
 
@@ -440,8 +440,8 @@ Loading BERT (all the files for the specific model should be in the same folder)
 ```python
 from transformers import BertModel, BertTokenizer
 
-bert_tokenizer = BertTokenizer.from_pretrained('model_bertikal/', do_lower_case=False)
-bert_model = BertModel.from_pretrained('model_bertikal/')
+bert_tokenizer = BertTokenizer.from_pretrained('folder_name/', do_lower_case=False)
+bert_model = BertModel.from_pretrained('folder_name/')
 ```
 
 --------------
