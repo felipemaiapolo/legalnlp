@@ -127,7 +127,7 @@ Function to download a pre-trained model in the same folder as the file that is 
 
 - *model*, **str**. Must contain the name of the pre-trained model that one wants to use. There are these options:  
     - **model = "bert"**: Download a .zip file containing BERTikal model and unzip it.
-    - **model = "wdoc"**: Download Word2Vec and Do2vec pre-trained models in a.zip file and unzip it. It has 2 two files, one with an size 100 Doc2Vec Distributed Memory/ Word2Vec Continuous Bag-of-Words (CBOW) embeddings model and other with an size 100 Doc2Vec Distributed Bag-of-Words (DBOW)/ Word2Vec Skip-Gram (SG)  embeddings model.
+    - **model = "wodc"**: Download Word2Vec and Do2vec pre-trained models in a.zip file and unzip it. It has 2 two files, one with an size 100 Doc2Vec Distributed Memory/ Word2Vec Continuous Bag-of-Words (CBOW) embeddings model and other with an size 100 Doc2Vec Distributed Bag-of-Words (DBOW)/ Word2Vec Skip-Gram (SG)  embeddings model.
     - **model = "fasttext"**: Download a .zip file containing 100 sized FastText CBOW/SG models and unzip it.
     - **model = "phraser"**: Download Phraser pre-trained model in a .zip file and unzip it. It has 2 two files with phraser1 and phreaser2. We explain how to use them in Section [ Phraser ](#3.1). 
     - **model = "w2vnilc"**: Download size 100 Word2Vec CBOW model trained by "Núcleo Interinstitucional de Linguística Computacional - USP" embeddings model in a .zip file and unzip it. [Click here for more details](http://nilc.icmc.usp.br/nilc/index.php/repositorio-de-word-embeddings-do-nilc).
