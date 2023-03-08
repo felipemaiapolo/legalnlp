@@ -15,7 +15,7 @@ def get_premodel(model):
             zip_ref.extractall(d+filename.replace('.zip', ''))
         modelv = True
     # Download files to use in Word2Vec and Doc2Vec
-    if model == 'wdoc':
+    if model == 'wodc':
         url2 = 'https://ndownloader.figshare.com/files/30446736'
         filename2 = wget.download(url2, out=d)
         if d == None:
