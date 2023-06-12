@@ -131,9 +131,7 @@ Function to download a pre-trained model in the same folder as the file that is 
     - **model = "fasttext"**: Download a .zip file containing 100 sized FastText CBOW/SG models and unzip it.
     - **model = "phraser"**: Download Phraser pre-trained model in a .zip file and unzip it. It has 2 two files with phraser1 and phreaser2. We explain how to use them in Section [ Phraser ](#3.1). 
     - **model = "w2vnilc"**: Download size 100 Word2Vec CBOW model trained by "Núcleo Interinstitucional de Linguística Computacional - USP" embeddings model in a .zip file and unzip it. [Click here for more details](http://nilc.icmc.usp.br/nilc/index.php/repositorio-de-word-embeddings-do-nilc).
-    - **model = "neuralmindbase"**: Download a .zip file containing base BERT model (PyTorch), trained by NeuralMind and unzip it. For more informations about BERT models made by NeuralMind go to [their GitHub repo](https://github.com/neuralmind-ai/portuguese-bert).
-    - **model = "neuralmindlarge"**: Download a .zip file containing large BERT model (PyTorch), trained by NeuralMind and unzip it. For more informations about BERT models made by NeuralMind go to [their GitHub repo](https://github.com/neuralmind-ai/portuguese-bert).
-
+  
 
 **output:** 
 
