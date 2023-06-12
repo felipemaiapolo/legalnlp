@@ -43,6 +43,7 @@ If you use our library in your academic work, please cite us in the following wa
 <a name="0"></a>
 ## 0\. Accessing the Language Models
 
+If you want to use BERTikal, please also check [HuggingFace](https://huggingface.co/felipemaiapolo/legalnlp-bert) for an easy way to use the model.
 
 All our models can be found [here](https://drive.google.com/drive/folders/1tCccOXPLSEAEUQtcWXvED3YaNJi3p7la?usp=sharing).
 
@@ -416,6 +417,7 @@ fast['juizasjashdkjhaskda'][:10]
 <a name="3.4"></a>
 ### 3.4\. BERTikal
 
+Please also check [HuggingFace](https://huggingface.co/felipemaiapolo/legalnlp-bert) for an easy way to use the model.
 
 We call BERTikal our BERT-Base model   (cased) [5] for Brazilian legal language. BERT models are models based on neural network architectures called Transformers. BERT models are trained with large sets of texts using the self-supervised paradigm, which is basically solving unsupervised problems using supervised techniques. A pre-trained BERT model is capable of generating representations for entire texts and can be adapted for a supervised task, e.g., text classification or question answering, using the fine-tuning mechanism. 
 
